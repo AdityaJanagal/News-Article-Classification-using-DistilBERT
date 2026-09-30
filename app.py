@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 
 # Load trained model and tokenizer
-model_path = "./news_classifier"
+model_path = "Adityajanagal/distilbert-news-classifier"
 
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
