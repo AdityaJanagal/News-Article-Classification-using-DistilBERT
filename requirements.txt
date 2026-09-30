@@ -3,3 +3,6 @@ transformers
 datasets 
 scikit-learn 
 streamlit
+streamlit
+torch
+safetensors
