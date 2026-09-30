@@ -1,0 +1,5 @@
+tensorflow 
+transformers 
+datasets 
+scikit-learn 
+streamlit
