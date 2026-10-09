@@ -1,7 +1,8 @@
 import streamlit as st
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-
+import os
+os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
 
 # Load trained model and tokenizer
 model_path = "Adityajanagal/distilbert-news-classifier"
